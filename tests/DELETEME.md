@@ -1,0 +1,1 @@
+The test folder stores all the test suites.
