@@ -7,4 +7,4 @@ Robot Framework pilot project for training
 - Start pipenv shell by running "pipenv shell"
 
 # Running the tests
-- Use command: pipenv run robot -V config/dev.py -V config/common_variables.py -L TRACE sampletest.robot
+- Use command: pipenv run robot -V config/staging.py -V config/common_variables.py -L TRACE sampletest.robot
