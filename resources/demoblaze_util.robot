@@ -16,7 +16,7 @@ ${MONITORS_BTN}  xpath:/html/body/div[5]/div/div[1]/div/a[4]
 *** Keywords ***
 The page should contain the texts
     [Arguments]                         @{ARGS}
-    FOR  ${TEXT}  IN  @{ARGS}
+    FOR                                 ${TEXT}  IN  @{ARGS}
     Page Should Contain                 ${TEXT}
     END
 
