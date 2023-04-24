@@ -10,8 +10,8 @@ Test Teardown       Run Keywords
 ...                 Close Browser
 
 *** Variables ***
-${USERNAME}         Set Variable  TEST9003
-${PASSWORD}         Set Variable  TEST9003
+${USERNAME}         TEST9003
+${PASSWORD}         TEST9003
 
 *** Test Cases ***
 New user opens the homepage
